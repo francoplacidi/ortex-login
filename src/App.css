@@ -1,38 +1,104 @@
-.App {
+body {
+  background-color: black;
+  border-top: 4px solid #057ABF;
+}
+
+a {
+  width: 100px;
+}
+
+input {
+  margin-bottom: 5%;
+}
+
+.container {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.col-md-12 {
+  margin-top: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  background: linear-gradient(90deg, #6c757d0d 0,#23495c)!important;
+  margin-top: 3%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+navbar {
+  position: relative;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  /* padding-top: 0.5rem; */
+  /* padding-bottom: 0.5rem; */
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: #fff!important;
+  margin-left: 13px!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  max-height: 90px;
+  max-width: 130px;
+}
+
+nav h1 {
+  margin-left: 57%;
+  display: inline;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all .15s ease-in;
+  text-transform: uppercase;
+  line-height: 1;
+  position: relative;
+}
+
+.login {
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+form {
+  text-align: center;
+  border: 1px solid #dcdcdc;
+  border-radius: 15px;
+  margin: 13px auto;
+  overflow: hidden;
+  /*padding: 18px;*/
+  position: relative;
+  width: 400px;
+}
+
+form .field {
+  color: #b9cbdb;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+p.fs-15.ml-10.fw-600.fs-17-xxl {
+  width: 85;
+  height: 25;
+}
+
+#sign-in {
+  text-decoration: none;
+}
+
+.link {
+  font-size: 18px;
+  font-weight: 400;
 }
